@@ -100,6 +100,10 @@ nav ul{
     color: #0084fd;
 }
 
+#color-black{
+    color: black;
+}
+
 .bg-blue{
     background-color: #0084fd;
 }
@@ -221,16 +225,21 @@ h1{
 }
 
 /* sezione 5 */
-.img-tipo{
-    border-radius: 50%;
-    width: 10em;
+.img-section-5{
+    position: relative;
+    background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 10em;
-    object-fit: cover;
+    width: 10em;
+    border-radius: 50%;
 }
 
-#quote{
-    top: 0;
-    right: 50%;
+.img-section-5 i{
+    position: absolute;
+    right: 0;
+    color: #9792e4;
     font-size: 3em;
 }
 
@@ -239,7 +248,7 @@ h1{
     background-color: #9792e4;
 }
 
-#bottone-bianco{
+.bottone-bianco{
     background-color: white;
     padding: 0.5em 3em;
     border-radius: 1em;
@@ -254,6 +263,9 @@ footer{
 
 
 /* media queries */
+
+
+/* tablet */
 @media screen and (min-width: 480px){
     #section-1{
         display: flex;
@@ -270,5 +282,92 @@ footer{
     
     #carta-grande{
         flex: 1 0 calc(100%/2 - 1em);
-        
+    }
+    
+    .card-3{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .img-testimonial{
+        margin-left: 1em;
+    }
+
+    .nome{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #section-4-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card-4{
+        width: calc(98%/2);
+    }
+
+    #section-5-container{
+        display: flex;
+        justify-content: space-between;
+        gap: 2em;
+    }
+
+    #bottone-viola{
+        padding: 0.5em 1em;
+    }
+
+}
+
+
+/* desktop */
+@media screen and (min-width: 1140px){
+    .container{
+        width: 70%;
+    }
+
+    #hidden-nav{
+        display: flex;
+        align-items: center;
+    }
+
+    #hidden-nav li{
+        margin-left: 2em;
+       
+    }
+
+    #bars{
+        display: none;
+    }
+
+    #carta-grande-2{
+        display: flex;
+        height: 100%;
+    }
+
+    .flex-end{
+        align-self: flex-end;
+    }
+
+    .section-2-container{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        gap: 1em;
+    }
+
+    .card-2{
+        margin-top: 10em;
+    }
+
+    #card-left{
+        padding-top: 5em;
+    }
+
+    .card-4{
+        width: calc(98%/3);
+    }
+
 }

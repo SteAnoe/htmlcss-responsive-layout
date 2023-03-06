@@ -16,14 +16,14 @@
             </div>    
             
             <nav>
-                <ul id="hidden-nav" class="flex space-b">
+                <ul class="color-white" id="hidden-nav">
                     <li>Planning</li>
                     <li>Testimonials</li>
                     <li>Features</li>
                     <li>About Us</li>
-                    <li>Get Started</li>
+                    <li id="color-black" class="bottone-bianco">Get Started</li>
                 </ul>
-                <i class="fa-solid fa-bars"></i>
+                <i id="bars" class="fa-solid fa-bars"></i>
             </nav>
         </div>
     </header>
@@ -31,7 +31,7 @@
     <main>
         <section id="section-1" class="container">
             <div id="carta-grande" class="card">
-                <div class="padding-left-right-1em">
+                <div id="carta-grande-2" class="padding-left-right-1em">
                     <div>
                         <h2 class="color-blue padding-top-2em">Get a demo application</h2>
                         <p class="padding-top-2em font-size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sed, sapiente quo commodi expedita praesentium quaerat quasi id, officiis minus aliquam quia ad tempore cum.</p>
@@ -42,7 +42,7 @@
                         </span> 
                         </div>
                     </div>
-                    <div class="padding-top-2em padding-left-right-1em"><img src="./assets/img/phone.png" alt="phone"></div>  
+                    <div class="padding-top-2em padding-left-right-1em flex-end"><img src="./assets/img/phone.png" alt="phone"></div>  
                 </div>
             </div>
             <div class="card">
@@ -84,25 +84,24 @@
         </section>
 
         <section id="section-2">
-            <div class="container margin-top-2em">
-                <div>
+            <div class="container margin-top-2em section-2-container">
+                <div id="card-left"> 
                     <div class="padding-top-2em">
                         <img src="./assets/img/planning1.png" alt="planning1">
                     </div>
-                        <div class="padding-top-2em font-size line-height">
+                    <div class="padding-top-2em font-size line-height">
                         <h2 class="padding-top-1em">Strategic Planning</h2>
                         <p class="padding-top-1em">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nam amet alias voluptas!   Praesentium cumque minus asperiores vel omnis, ipsa   odit laudantium ad, ratione architecto    est dicta quod quam eius!</p>
                     </div>
-                    <div class="card-2">
-                        <div class="padding-top-2em">
-                            <img src="./assets/img/planning2.png" alt="">
-                        </div>
-                        <h3 class="padding-top-2em padding-left-right-1em text-align-center">App Developement</h3>
-                        <p class="padding-top-2em padding-bot-1em padding-left-right-1em text-align-center font-size"><em>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</em></p>
-                        <div class="text-align-center font-size padding-top-2em padding-bot-1em margin-bottom-2em">
-                            <a id="arrow" href="#anchor"><i class="fa-solid fa-arrow-down"></i></a>
-                            </i>
-                        </div>
+                </div>
+                <div class="card-2">
+                    <div id="child-1" class="padding-top-2em">
+                        <img src="./assets/img/planning2.png" alt="">
+                    </div>
+                    <h3 id="child-2" class="padding-top-2em padding-left-right-1em text-align-center">App Developement</h3>
+                    <p id="child-3" class="padding-top-2em padding-bot-1em padding-left-right-1em text-align-center font-size"><em>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</em></p>
+                    <div id="child-4" class="text-align-center font-size padding-top-2em padding-bot-1em margin-bottom-2em">
+                        <a id="arrow" href="#anchor"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                 </div> 
             </div>
@@ -118,40 +117,46 @@
                 <div class="padding-top-2em">
                     <img class="img-testimonial" src="./assets/img/testimonial1.jpg" alt="testimonial1">
                 </div>
-                <p class="padding-top-2em padding-left-right-1em">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vero praesentium magnam rem doloremque quia officiis, blanditiis asperiores placeat! Iusto aliquid modi repudiandae! Doloremque dolorem officiis odio quia tempora corporis!</span>
-                    <i class="fa-solid fa-quote-right"></i>
-                </p>
-                <div class="padding-top-2em">NAT REYNOLDS</div>
+                <div>
+                    <p class="padding-top-2em padding-left-right-1em">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vero praesentium magnam rem doloremque quia officiis, blanditiis asperiores placeat! Iusto aliquid modi repudiandae! Doloremque dolorem officiis odio quia tempora corporis!</span>
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <div class="padding-top-2em nome">NAT REYNOLDS</div>
+                </div>
             </div>
             <div class="card-3 text-align-center margin-top-2em">
                 <div class="padding-top-2em">
                     <img class="img-testimonial" src="./assets/img/testimonial2.jpg" alt="testimonial2">
                 </div>
-                <p class="padding-top-2em padding-left-right-1em">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vero praesentium magnam rem doloremque quia officiis, blanditiis asperiores placeat! Iusto aliquid modi repudiandae! Doloremque dolorem officiis odio quia tempora corporis!</span>
-                    <i class="fa-solid fa-quote-right"></i>
-                </p>
-                <div class="padding-top-2em">CELIA ALMEDA</div>
+                <div>
+                    <p class="padding-top-2em padding-left-right-1em">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vero praesentium magnam rem doloremque quia officiis, blanditiis asperiores placeat! Iusto aliquid modi repudiandae! Doloremque dolorem officiis odio quia tempora corporis!</span>
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <div class="padding-top-2em nome">CELIA ALMEDA</div>
+                </div>
             </div>
             <div class="card-3 text-align-center margin-top-2em">
                 <div class="padding-top-2em">
                     <img class="img-testimonial" src="./assets/img/testimonial3.jpg" alt="testimonial03">
                 </div>
-                <p class="padding-top-2em padding-left-right-1em">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vero praesentium magnam rem doloremque quia officiis, blanditiis asperiores placeat! Iusto aliquid modi repudiandae! Doloremque dolorem officiis odio quia tempora corporis!</span>
-                    <i class="fa-solid fa-quote-right"></i>
-                </p>
-                <div class="padding-top-2em">BOB ROBERTS</div>
+                <div>
+                    <p class="padding-top-2em padding-left-right-1em">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vero praesentium magnam rem doloremque quia officiis, blanditiis asperiores placeat! Iusto aliquid modi repudiandae! Doloremque dolorem officiis odio quia tempora corporis!</span>
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <div class="padding-top-2em nome">BOB ROBERTS</div>
+                </div>
             </div>
         </section>
 
         <section id="section-4">
             <h1 class="color-white margin-top-2em padding-top-2em text-align-center">Benefits of working with us</h1>
-            <div class="container line-height padding-bot-1em">
+            <div id="section-4-container" class="container line-height padding-bot-1em">
                 <div class="card-4 margin-top-2em">
                     <div class="padding-left-right-1em">
                         <h2 class="color-violet padding-top-05em font-size-2">01</h2>
@@ -204,20 +209,19 @@
         </section>
 
         <section>
-            <div class="container padding-top-3em padding-bot-1em">
+            <div id="section-5-container" class="container padding-top-3em padding-bot-1em">
                 <div>
                     <h2 class="color-violet font-size-3">About Us</h2>
                     <p class="padding-top-2em font-size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sunt earum asperiores, quo assumenda dicta maiores voluptatum excepturi repellendus. Magni est voluptate harum vitae eum tenetur cupiditate ut. Modi, porro.</p>
                     <p class="padding-top-2em font-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus tempore commodi! Quaerat voluptas quae temporibus maiores fugiat deleniti provident! Animi nisi placeat eaque neque? Esse atque officia ducimus ad?</p>
                 </div>
                 <div class="padding-top-2em">
-                    <div class="relative">
-                        <img class="img-tipo" src="./assets/img/about.jpg" alt="">
-                        <i id="quote" class="fa-solid fa-quote-left absolute"></i>
+                    <div class="img-section-5">
+                        <i class="fa-solid fa-quote-left"></i> 
                     </div>
                     <strong class="color-violet font-size-2 padding-top-2em">I help companies praesentium adipisci ea dicta, excepturi officiis eveniet mollitia.</strong>
                     <div class="color-white margin-bottom-2em padding-top-2em">
-                        <span class="bottone-viola">
+                        <span id="bottone-viola" class="bottone-viola">
                             <i class="fa-brands fa-linkedin"></i> Find me on linkedin  
                         </span>
                     </div> 
@@ -232,7 +236,7 @@
                 <h2 class="color-yellow padding-top-1em font-size-3">It's Free!</h2>
                 <p class="padding-top-2em font-size">We're still in beta and we will be for awhile. As we add morefunctionality, we'll look into other plans with more controls.</p>
                 <div class="padding-top-2em font-size padding-bot-1em letter-spacing">
-                    <strong id="bottone-bianco">Get Started</strong> 
+                    <strong class="bottone-bianco">Get Started</strong> 
                 </div>
                 <span class="padding-top-2em font-size">Copyright 2021 Boolean &#8226; Classe XX &#8226; <a href="#" class="color-white">Privacy policy</a></span>
             </div>
