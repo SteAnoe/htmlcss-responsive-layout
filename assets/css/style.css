@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 img{
@@ -317,13 +318,14 @@ footer{
 
     #bottone-viola{
         padding: 0.5em 1em;
+        font-size: 0.8em;
     }
 
 }
 
 
 /* desktop */
-@media screen and (min-width: 1140px){
+@media screen and (min-width: 992px){
     .container{
         width: 70%;
     }
@@ -359,15 +361,28 @@ footer{
     }
 
     .card-2{
-        margin-top: 10em;
+        width: 40%;
+        align-self: flex-end;
+    }
+
+    .card-2 img{
+        width: 70%;
+        margin: 0 auto;
     }
 
     #card-left{
-        padding-top: 5em;
+        padding-top: 15%;
+        width: 60%;
     }
 
     .card-4{
         width: calc(98%/3);
     }
+
+    #bottone-viola{
+        padding: 0.5em 1em;
+        font-size: 1em;
+    }
+
 
 }
